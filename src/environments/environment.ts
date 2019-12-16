@@ -11,9 +11,11 @@ export const environment = {
     projectId: 'rent-my-stuff-890d3',
     storageBucket: 'rent-my-stuff-890d3.appspot.com',
     messagingSenderId: '368105033032',
-    appId: '1:368105033032:web:7fb47b5e97bf40d075b77d',
+    appId: '1:368105033032:android:47389309c7be2ec075b77d',
     measurementId: 'G-XGKRVVGYTQ'
-  }
+  },
+  domain: 'http://192.168.1.161:8000',
+  relUrl: '/es/api/v1/accounts/test-token/facebook/'
 };
 
 /*
@@ -24,3 +26,4 @@ export const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+// appId: '1:368105033032:web:7fb47b5e97bf40d075b77d',
